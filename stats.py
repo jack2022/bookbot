@@ -16,7 +16,7 @@ def get_num_words(frankenstein):
 ## Get a dictionary of characters and counts
 
 def get_num_chars(frankenstein):
-    frankenstein.lower().replace(" ","")
+    frankenstein = frankenstein.lower().replace(" ","")
     list_frankenstenstein = list(frankenstein)
     char_count = {}
 
